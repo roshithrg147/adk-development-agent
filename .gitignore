@@ -1,0 +1,6 @@
+.venv/
+.workforce/
+test.db
+inspect_adk.py
+__pycache__/
+*.pyc

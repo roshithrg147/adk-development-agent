@@ -1,0 +1,23 @@
+[project]
+name = "adk-development-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "R.R", email = "roshithragh@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "google-adk==2.10.0",
+    "mcp>=2.3.0",
+    "psycopg2-binary>=2.9.13",
+    "pytest>=9.1.1",
+    "sqlalchemy>=2.1.4",
+]
+
+[project.scripts]
+adk-development-agent = "adk_development_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
